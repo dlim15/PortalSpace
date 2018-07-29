@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1190DDB21085A0C00377C31 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1190DDA21085A0C00377C31 /* UIViewExtension.swift */; };
+		A19242CD2105566C00588FF6 /* FilePathRelated.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19242CC2105566C00588FF6 /* FilePathRelated.swift */; };
+		A1ADBF22210064AD00076422 /* ARSpaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1ADBF21210064AD00076422 /* ARSpaceViewController.swift */; };
 		A1E11B2420F81147000B36E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E11B2320F81147000B36E5 /* AppDelegate.swift */; };
 		A1E11B2620F81147000B36E5 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = A1E11B2520F81147000B36E5 /* art.scnassets */; };
 		A1E11B2820F81147000B36E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E11B2720F81147000B36E5 /* ViewController.swift */; };
@@ -15,6 +18,15 @@
 		A1E11B3020F81148000B36E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1E11B2E20F81148000B36E5 /* LaunchScreen.storyboard */; };
 		A1E11B3B20F81149000B36E5 /* ARSpaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E11B3A20F81149000B36E5 /* ARSpaceTests.swift */; };
 		A1E11B4620F81149000B36E5 /* ARSpaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E11B4520F81149000B36E5 /* ARSpaceUITests.swift */; };
+		A1E11B5F20F81611000B36E5 /* Gear360.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E11B5E20F81611000B36E5 /* Gear360.framework */; };
+		A1E11B6120F816B6000B36E5 /* Gear360.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A1E11B5E20F81611000B36E5 /* Gear360.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A1E11B6420F81AA6000B36E5 /* DeviceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E11B6320F81AA6000B36E5 /* DeviceManager.swift */; };
+		A1E11B6620F87D05000B36E5 /* AlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E11B6520F87D05000B36E5 /* AlbumCell.swift */; };
+		A1E11B6A20F88196000B36E5 /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E11B6920F88196000B36E5 /* AlbumViewController.swift */; };
+		A1E11B6C20F883F1000B36E5 /* ARCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E11B6B20F883F1000B36E5 /* ARCameraViewController.swift */; };
+		A1E11B6E20F884C8000B36E5 /* DialogBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E11B6D20F884C8000B36E5 /* DialogBox.swift */; };
+		A1E11B7020F9B7ED000B36E5 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E11B6F20F9B7ED000B36E5 /* CameraManager.swift */; };
+		A1E11B7220FDC54C000B36E5 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E11B7120FDC54C000B36E5 /* FileManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +46,24 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		A1E11B6220F816B7000B36E5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A1E11B6120F816B6000B36E5 /* Gear360.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		A1190DDA21085A0C00377C31 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		A19242CC2105566C00588FF6 /* FilePathRelated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilePathRelated.swift; sourceTree = "<group>"; };
+		A1ADBF21210064AD00076422 /* ARSpaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSpaceViewController.swift; sourceTree = "<group>"; };
 		A1E11B2020F81147000B36E5 /* ARSpace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARSpace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1E11B2320F81147000B36E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1E11B2520F81147000B36E5 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -49,6 +78,15 @@
 		A1E11B4120F81149000B36E5 /* ARSpaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARSpaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1E11B4520F81149000B36E5 /* ARSpaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSpaceUITests.swift; sourceTree = "<group>"; };
 		A1E11B4720F81149000B36E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1E11B5320F811AC000B36E5 /* HeaderBridging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeaderBridging.h; sourceTree = "<group>"; };
+		A1E11B5E20F81611000B36E5 /* Gear360.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Gear360.framework; sourceTree = "<group>"; };
+		A1E11B6320F81AA6000B36E5 /* DeviceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceManager.swift; sourceTree = "<group>"; };
+		A1E11B6520F87D05000B36E5 /* AlbumCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCell.swift; sourceTree = "<group>"; };
+		A1E11B6920F88196000B36E5 /* AlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
+		A1E11B6B20F883F1000B36E5 /* ARCameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCameraViewController.swift; sourceTree = "<group>"; };
+		A1E11B6D20F884C8000B36E5 /* DialogBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogBox.swift; sourceTree = "<group>"; };
+		A1E11B6F20F9B7ED000B36E5 /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		A1E11B7120FDC54C000B36E5 /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1E11B5F20F81611000B36E5 /* Gear360.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,10 +118,12 @@
 		A1E11B1720F81147000B36E5 = {
 			isa = PBXGroup;
 			children = (
+				A1190DDA21085A0C00377C31 /* UIViewExtension.swift */,
 				A1E11B2220F81147000B36E5 /* ARSpace */,
 				A1E11B3920F81149000B36E5 /* ARSpaceTests */,
 				A1E11B4420F81149000B36E5 /* ARSpaceUITests */,
 				A1E11B2120F81147000B36E5 /* Products */,
+				A1E11B5820F814A9000B36E5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +140,24 @@
 		A1E11B2220F81147000B36E5 /* ARSpace */ = {
 			isa = PBXGroup;
 			children = (
+				A1E11B5E20F81611000B36E5 /* Gear360.framework */,
 				A1E11B2320F81147000B36E5 /* AppDelegate.swift */,
 				A1E11B2520F81147000B36E5 /* art.scnassets */,
-				A1E11B2720F81147000B36E5 /* ViewController.swift */,
+				A1E11B6320F81AA6000B36E5 /* DeviceManager.swift */,
+				A1E11B6F20F9B7ED000B36E5 /* CameraManager.swift */,
 				A1E11B2920F81147000B36E5 /* Main.storyboard */,
+				A1E11B2720F81147000B36E5 /* ViewController.swift */,
 				A1E11B2C20F81148000B36E5 /* Assets.xcassets */,
 				A1E11B2E20F81148000B36E5 /* LaunchScreen.storyboard */,
 				A1E11B3120F81148000B36E5 /* Info.plist */,
+				A1E11B5320F811AC000B36E5 /* HeaderBridging.h */,
+				A1E11B6520F87D05000B36E5 /* AlbumCell.swift */,
+				A19242CC2105566C00588FF6 /* FilePathRelated.swift */,
+				A1E11B6920F88196000B36E5 /* AlbumViewController.swift */,
+				A1E11B6B20F883F1000B36E5 /* ARCameraViewController.swift */,
+				A1E11B6D20F884C8000B36E5 /* DialogBox.swift */,
+				A1E11B7120FDC54C000B36E5 /* FileManager.swift */,
+				A1ADBF21210064AD00076422 /* ARSpaceViewController.swift */,
 			);
 			path = ARSpace;
 			sourceTree = "<group>";
@@ -128,6 +180,13 @@
 			path = ARSpaceUITests;
 			sourceTree = "<group>";
 		};
+		A1E11B5820F814A9000B36E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,6 +197,7 @@
 				A1E11B1C20F81147000B36E5 /* Sources */,
 				A1E11B1D20F81147000B36E5 /* Frameworks */,
 				A1E11B1E20F81147000B36E5 /* Resources */,
+				A1E11B6220F816B7000B36E5 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -196,6 +256,7 @@
 				TargetAttributes = {
 					A1E11B1F20F81147000B36E5 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 					A1E11B3520F81149000B36E5 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -260,8 +321,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1E11B6C20F883F1000B36E5 /* ARCameraViewController.swift in Sources */,
+				A19242CD2105566C00588FF6 /* FilePathRelated.swift in Sources */,
 				A1E11B2820F81147000B36E5 /* ViewController.swift in Sources */,
+				A1E11B7020F9B7ED000B36E5 /* CameraManager.swift in Sources */,
+				A1E11B6E20F884C8000B36E5 /* DialogBox.swift in Sources */,
+				A1E11B6A20F88196000B36E5 /* AlbumViewController.swift in Sources */,
+				A1190DDB21085A0C00377C31 /* UIViewExtension.swift in Sources */,
+				A1E11B6420F81AA6000B36E5 /* DeviceManager.swift in Sources */,
+				A1E11B7220FDC54C000B36E5 /* FileManager.swift in Sources */,
 				A1E11B2420F81147000B36E5 /* AppDelegate.swift in Sources */,
+				A1ADBF22210064AD00076422 /* ARSpaceViewController.swift in Sources */,
+				A1E11B6620F87D05000B36E5 /* AlbumCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,15 +505,24 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D353SPAKW9;
+				DEVELOPMENT_TEAM = 2Q9LTYE74A;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ARSpace",
+				);
 				INFOPLIST_FILE = ARSpace/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dv.ARSpace;
+				PRODUCT_BUNDLE_IDENTIFIER = kh.ARSpace;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = ARSpace/HeaderBridging.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -452,15 +532,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D353SPAKW9;
+				DEVELOPMENT_TEAM = 2Q9LTYE74A;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ARSpace",
+				);
 				INFOPLIST_FILE = ARSpace/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dv.ARSpace;
+				PRODUCT_BUNDLE_IDENTIFIER = kh.ARSpace;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = ARSpace/HeaderBridging.h;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
